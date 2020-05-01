@@ -1,0 +1,105 @@
+html {
+  display: block;
+}
+img {
+  width: 1278px;
+}
+.header-text {
+  position: absolute;
+  top: 240px;
+  left: 300px;
+}
+h1 {
+  font-size: 68px;
+  margin: 0px;
+  padding: 0px;
+  white-space: nowrap;
+}
+h2 {
+  font-size: 35px;
+  margin: 0px;
+  margin-bottom: -3%;
+  padding: 0px;
+  white-space: nowrap;
+}
+header, .quote, h4 {
+  font-family:'Abril Fatface';
+  color: #222;
+  font-weight: normal;
+}
+main {
+  width: 639px;
+  margin-left: 320px;
+}
+h5, p, li {
+  font-family: 'Josefin Sans';
+  color: #222;
+  font-weight: normal;
+}
+subtitle {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: normal;
+}
+h4 {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+blockquote::before {
+  content: '“';
+  font-size: 120px;
+  font-family: 'Abril Fatface';
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+blockquote {
+  font-family: 'Abril Fatface';
+  font-size: 40px;
+  margin-left: 20px;
+  position: relative;
+  top: 50px;
+  padding-bottom: 100px;
+
+}
+  div.quote {
+  background: #222D;
+  width: 720px;
+  color: white;
+  margin: 0px 0px 30px -60px;
+  position: relative;
+  line-height: 50px;
+}
+.headmain {
+  font-size: 20px;
+}
+section {
+  font-size: 18px;
+  line-height: 30px;
+}
+h5 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: -1px;
+}
+.bottom {
+  margin-top: 40px;
+}
+hr {
+  background: black;
+  height: 1px;
+  margin-bottom: 40px;
+}
+.in-button {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: 150px;
+  height: 30px;
+  border-style: solid;
+  border-color: #2222;
+  border-width: 0.5px;
+  border-radius: 15px;
+  text-align: center; 
+ }
