@@ -116,6 +116,8 @@ hr {
   border-width: 0.5px;
   border-radius: 15px;
   text-align: center;
-  color: #222;
-  text-decoration: none;
+ }
+ a[href="index2.html"] {
+   color: #222;
+   text-decoration: none;
  }
