@@ -108,3 +108,7 @@ hr {
   justify-content: flex-end;
   background-color: #222;
  }
+ nav {
+   display: flex;
+   justify-content: space-around;
+ }
