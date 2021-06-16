@@ -117,7 +117,7 @@ hr {
   border-radius: 15px;
   text-align: center;
  }
- a[href="index2.html"] {
+ a[href*="index2"] {
    color: #222;
    text-decoration: none;
  }
