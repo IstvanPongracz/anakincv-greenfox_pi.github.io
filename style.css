@@ -95,20 +95,25 @@ hr {
   position: fixed;
   bottom: 10px;
   left: 10px;
-  width: 150px;
-  height: 30px;
+  width: auto;
+  height: auto;
+  padding: 5px;
   border-style: solid;
   border-color: #2222;
   border-width: 0.5px;
   border-radius: 15px;
   text-align: center; 
  }
-  .web2 {
-  display: flex;
-  justify-content: flex-end;
-  background-color: #222;
- }
- nav {
-   display: flex;
-   justify-content: space-around;
+  nav.web2 {
+  position: fixed;
+  bottom: 10px;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  right: 10px;
+  border-style: solid;
+  border-color: #2222;
+  border-width: 0.5px;
+  border-radius: 15px;
+  text-align: center;
  }
