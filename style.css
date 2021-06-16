@@ -116,6 +116,8 @@ hr {
   border-width: 0.5px;
   border-radius: 15px;
   text-align: center;
+  }
+  a:link {
   color: #222;
   text-decoration: none;
  }
