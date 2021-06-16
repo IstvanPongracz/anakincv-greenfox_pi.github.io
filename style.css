@@ -106,7 +106,7 @@ hr {
   .web2 a {
   display: flex;
   justify-content: flex-end;
-  position: fixed;
+  position: sticky;
    bottom: 10px;
   right: 10px;
   width: 150px;
