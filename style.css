@@ -123,10 +123,9 @@ hr {
  }
 nav.web2:hover {
   border-color: rgb(235,33,46);
-  background-color: rgb(36, 36, 36);
-  box-shadow: 0 0.5 0.5 -0.4 rgb(235,33,46);
+  background-color: rgb(223,223,223);
+  box-shadow: 1.5 2 2 -1.4 rgb(235,33,46);
   transform: translateY(-0.25em);
-  color: rgb(223,223,223);
   cursor: crosshair red;
 
 }
