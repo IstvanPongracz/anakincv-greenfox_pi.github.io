@@ -103,7 +103,7 @@ hr {
   border-radius: 15px;
   text-align: center; 
  }
-  a.web2 {
+  a .web2 {
   display: flex;
   justify-content: flex-end;
   position: sticky;
