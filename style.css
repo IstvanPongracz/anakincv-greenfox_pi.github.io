@@ -103,18 +103,8 @@ hr {
   border-radius: 15px;
   text-align: center; 
  }
-  a .web2 {
+  .web2 {
   display: flex;
   justify-content: flex-end;
-  position: sticky;
-  color: #222;
-  bottom: 10px;
-  right: 10px;
-  width: 150px;
-  height: 30px;
-  border-style: solid;
-  border-color: #2222;
-  border-width: 0.5px;
-  border-radius: 15px;
-  text-align: center;
+  background-color: #222;
  }
