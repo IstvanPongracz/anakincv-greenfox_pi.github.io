@@ -128,3 +128,10 @@ nav.web2:hover {
   transform: translateY(-0.25em);
   cursor: crosshair;
 }
+@media (min-width: 414px){
+  nav.web2 {
+    width: 8rem;
+    height: 4rem;
+    background: rgba(235, 33, 46, 0.3);
+  }
+ }
