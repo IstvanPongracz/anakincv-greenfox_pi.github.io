@@ -180,10 +180,12 @@ div.inthemiddle-last {
 a {
   text-decoration: none;
  }
- @media (min-width: 414px){
+ @media (max-width: 414px){
   nav.web2 {
     width: 8rem;
     height: 4rem;
     background: rgba(235, 33, 46, 0.3);
+    text-align: center center;
+    font-weight: 900;
   }
  }
