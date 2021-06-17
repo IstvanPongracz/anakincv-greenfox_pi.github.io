@@ -128,7 +128,7 @@ nav.web2:hover {
   transform: translateY(-0.25em);
   cursor: crosshair;
 }
-@media (max-width: 414px){
+@media (min-width: 414px) and (max-width: 1024px){
   nav.web2 {
     width: 8rem;
     height: 4rem;
