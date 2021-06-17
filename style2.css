@@ -177,3 +177,6 @@ div.quote-last {
 div.inthemiddle-last {
   top: -900px;
 }
+a {
+  text-decoration: none;
+ }
