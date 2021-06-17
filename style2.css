@@ -1,105 +1,179 @@
 html {
-    display: block;
+  display: flex;
+}
+img {
+  width: 35.5rem;
+  height: 500px;
+  object-fit: cover;
+  position: static;
+  margin-left: -1rem;
+}
+.header-text {
+  position: absolute;
+  top: 240px;
+  left: 300px;
+}
+h1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 82px;
+  width: 50%;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  margin-left: -120px;
+  line-height: 100%;
+  letter-spacing: 0.5rem;
+  font-weight: 500;
+}
+h2 {
+  font-size: 40px;
+  margin-left: -120px;
+  margin-bottom: -15%;
+  margin-top: 15%;
+  padding: 0px;
+  white-space: nowrap;
+  font-weight: 500;
+}
+header, .quote, h4 {
+  font-family:'Abril Fatface';
+  color: #222;
+  font-weight: normal;
+}
+.headmain, .bio {
+  display: flex;
+  line-height: 1.5em;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 50%;
+  position: absolute;
+  top: 100px;
+  left: 29em;
   }
-  img {
-    width: 1278px;
-  }
-  .header-text {
-    position: absolute;
-    top: 240px;
-    left: 300px;
-  }
-  h1 {
-    font-size: 68px;
-    margin: 0px;
-    padding: 0px;
-    white-space: nowrap;
-  }
-  h2 {
-    font-size: 35px;
-    margin: 0px;
-    margin-bottom: -3%;
-    padding: 0px;
-    white-space: nowrap;
-  }
-  header, .quote, h4 {
-    font-family:'Abril Fatface';
-    color: #222;
-    font-weight: normal;
-  }
-  main {
-    width: 639px;
-    margin-left: 320px;
-  }
-  h5, p, li {
-    font-family: 'Josefin Sans';
-    color: #222;
-    font-weight: normal;
-  }
-  subtitle {
-    font-family: 'Merriweather';
-    font-style: italic;
-    font-weight: normal;
-  }
-  h4 {
-    text-transform: uppercase;
-    font-size: 18px;
-  }
-  blockquote::before {
-    content: '“';
-    font-size: 120px;
-    font-family: 'Abril Fatface';
-    position: absolute;
-    top: -20px;
-    left: -20px;
-  }
-  blockquote {
-    font-family: 'Abril Fatface';
-    font-size: 40px;
-    margin-left: 20px;
-    position: relative;
-    top: 50px;
-    padding-bottom: 100px;
-  
-  }
-    div.quote {
-    background: #222D;
-    width: 720px;
-    color: white;
-    margin: 0px 0px 30px -60px;
-    position: relative;
-    line-height: 50px;
-  }
-  .headmain {
-    font-size: 20px;
-  }
-  section {
-    font-size: 18px;
-    line-height: 30px;
-  }
-  h5 {
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 40px;
-    margin-bottom: -1px;
-  }
-  .bottom {
-    margin-top: 40px;
-  }
-  hr {
-    background: black;
-    height: 1px;
-    margin-bottom: 40px;
-  }
-  .in-button {
-    position: fixed;
-    bottom: 10px;
-    left: 10px;
-    width: 150px;
-    height: 30px;
-    border-style: solid;
-    border-color: #2222;
-    border-width: 0.5px;
-    border-radius: 15px;
-    text-align: center; 
-   }
+.bio {
+  width: 100%;
+  top: 160px;
+  left: 0em;
+}
+main {
+  width: 639px;
+  margin-left: 320px;
+}
+h5, p, li {
+  font-family: 'Josefin Sans';
+  color: #222;
+  font-weight: normal;
+}
+div.inthemiddle, div.inthemiddle-last {
+  display: flex;
+  flex-flow: column wrap;
+  position: relative;
+  top: -400px;
+  left: 15em;
+  width: 100%;
+  align-items: stretch;
+}
+subtitle {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: normal;
+}
+h4 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+blockquote::before {
+  content: '“';
+  font-size: 200px;
+  font-family: 'Abril Fatface';
+  position: relative;
+  top: -20px;
+  left: 15px;
+}
+blockquote {
+  font-family: 'Abril Fatface';
+  font-size: 60px;
+  position: absolute;
+  top: -10px;
+  left: -60px;
+  display: flex;
+  flex-flow: column-wrap;
+  width: 37%;
+  line-height: 1.5em;
+}
+  div.quote, div.quote-last {
+  display: flex;
+  flex-flow: column wrap;
+  flex-basis: auto;
+  background: #222D;
+  width: 35rem;
+  height: 450px;
+  color: white;
+  position: relative;
+  left: -20.5rem;
+  line-height: 50px;
+  margin-top: 30px;
+}
+.headmain {
+  font-size: 20px;
+}
+section {
+  font-size: 18px;
+  line-height: 30px;
+}
+h5 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: -1px;
+}
+.bottom {
+  margin-top: 40px;
+}
+hr {
+  background: black;
+  height: 1px;
+  margin-bottom: 40px;
+}
+  nav.web2 {
+  display: flex;
+  position: fixed;
+  bottom: 10px;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  right: 10px;
+  border-style: solid;
+  border-color: #2222;
+  border-width: 0.5px;
+  border-radius: 15px;
+  text-align: center;
+  transition: rgb(235,33,46) 0.25s, border-color 0.25s, box-shadow 0.25s,transform 0.25s;
+}
+nav.web2:hover {
+  border-color: rgb(235,33,46);
+  background-color: rgb(235,33,46);
+  box-shadow: 4px 4px 8px -0.4px rgb(235,33,46);
+  transform: translateY(-0.25em);
+  cursor: crosshair red;
+  font-weight: 700;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1278px;
+  height: 5rem;
+  color: white;
+  background-color: #222;
+  font-family: 'Josefin Sans';
+  font-size: 2rem;
+  font-weight: 900;
+  align-items: center;
+  margin-left: -1rem;
+  margin-top: -1rem;
+  } 
+div.quote-last {
+  height: 950px;
+}
+div.inthemiddle-last {
+  top: -900px;
+}
